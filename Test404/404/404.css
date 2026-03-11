@@ -1,0 +1,61 @@
+ body {
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            font-family: 'Arvo', serif, sans-serif;
+        }
+
+        .page_404 {
+            padding: 40px 0;
+            background: #fff;
+            text-align: center;
+        }
+
+        /* ส่วนของภาพเคลื่อนไหว GIF และเลข 404 */
+        .four_zero_four_bg {
+            background-image: url('https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif');
+            height: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .four_zero_four_bg h1 {
+            font-size: 80px;
+            margin: 0;
+            color: #333;
+            letter-spacing: 5px;
+            padding-top: 20px;
+        }
+
+        /* โค้ดส่วนคำใบ้ที่คุณให้มา */
+        .contant_box_404 {
+            margin-top: -50px;
+        }
+
+        .contant_box_404 h3 {
+            font-size: 32px;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .contant_box_404 p {
+            color: #999;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .link_404 {
+            color: #fff !important;
+            padding: 10px 20px;
+            background: #39ac31;
+            margin: 20px 0;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .link_404:hover {
+            background: #2f8e28;
+        }
