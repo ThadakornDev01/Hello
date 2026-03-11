@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solaris - Gateway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="index.css">
     <style>
         body, html {
@@ -13,13 +20,67 @@
             height: 100%;
             overflow: hidden;
             background-color: #111;
+            font-family: 'Kanit', sans-serif;
+            color: #E0E0E0;
         }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+        .title {
+            font-weight: 300;
+            font-size: 2rem;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+            margin-bottom: 2rem;
+        }
+        .btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+        .btn:hover {
+            transform: scale(1.2);
+        }
+        .btn .icon {
+            fill: #888;
+            transition: fill 0.3s ease, filter 0.3s ease;
+        }
+        .btn:hover .icon {
+            fill: #ff4757;
+            filter: drop-shadow(0 0 7px #ff4757);
+        }
+
     </style>
 </head>
-<body>
 
+<body>
     <div class="container">
-        <button class="nav-btn" type="button" style="border">กด</button>
+        <h1 class="title animate__animated animate__backInLeft">อยากเห็นอะไรเจ๋งๆ มั้ย ลองกดรูปหัวใจดูสิ!!</h1>
+        <!-- From Uiverse.io by boryanakrasteva --> 
+    <a href="/Test404/404/404.html" onclick="changePage('/Test404/404/404.html'); return false;" class="animate__animated animate__backInLeft">
+    <button class="btn">
+    <svg
+        class="icon"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20.503"
+        height="20.625"
+        viewBox="0 0 17.503 15.625"
+    >
+        <path
+        id="Fill"
+        d="M8.752,15.625h0L1.383,8.162a4.824,4.824,0,0,1,0-6.762,4.679,4.679,0,0,1,6.674,0l.694.7.694-.7a4.678,4.678,0,0,1,6.675,0,4.825,4.825,0,0,1,0,6.762L8.752,15.624ZM4.72,1.25A3.442,3.442,0,0,0,2.277,2.275a3.562,3.562,0,0,0,0,5l6.475,6.556,6.475-6.556a3.563,3.563,0,0,0,0-5A3.443,3.443,0,0,0,12.786,1.25h-.01a3.415,3.415,0,0,0-2.443,1.038L8.752,3.9,7.164,2.275A3.442,3.442,0,0,0,4.72,1.25Z"
+        transform="translate(0 0)"
+        ></path>
+    </svg>
+    </button>
+    </a>
     </div>
 
     <script src="index.js"></script>
